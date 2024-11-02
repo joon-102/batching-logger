@@ -21,7 +21,7 @@ const { BatchingLogger, LoggerEvent } = require('batching-logger');
 - "maxLogBufferLength" 로그 버퍼에 저장할 수 있는 최대 로그 개수입니다. (기본값 : 500)
 ```js
 const logger = new BatchingLogger({
-    saveInterval: 5000
+    saveInterval: 5000,
     minLogBufferLength: 1,
     maxLogBufferLength: 500
 });
