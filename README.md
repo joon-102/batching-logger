@@ -68,9 +68,3 @@ logger.startLogging()
 logger.stopLogging()
 ```
 - **SendSave 이벤트를 중지합니다.**
-
-
-
-
-
-

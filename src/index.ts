@@ -37,7 +37,7 @@ export class BatchingLogger extends EventEmitter {
         if (this.interval) {
             clearInterval(this.interval);
         }
-        
+
         this.interval = setInterval(async () => {
             if (this.logBuffer.length >= this.minLogBufferLength) {
                 await this.emitSendSave(this.logBuffer);

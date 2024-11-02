@@ -1,23 +1,22 @@
 {
     "compilerOptions": {
-      "target": "es2016",
-      "module": "commonjs",
-      "declaration": true,
-      "outDir": "./dist/",
-      "removeComments": true,
-      "esModuleInterop": true,
-      "forceConsistentCasingInFileNames": true,
-      "strict": true,
-      "strictNullChecks": true,
-      "alwaysStrict": true,
-      "noImplicitReturns": true,
-      "skipLibCheck": true
+        "target": "es2016",
+        "module": "commonjs",
+        "declaration": true,
+        "outDir": "./dist/",
+        "removeComments": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "strictNullChecks": true,
+        "alwaysStrict": true,
+        "noImplicitReturns": true,
+        "skipLibCheck": true
     },
     "include": [
-      "src"
+        "src"
     ],
     "exclude": [
-      "node_modules"
+        "node_modules"
     ]
-  }
-  
+}
