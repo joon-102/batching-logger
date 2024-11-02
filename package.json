@@ -1,0 +1,32 @@
+{
+  "name": "batching-logger",
+  "version": "0.1.0",
+  "description": "Stores logs in batches to optimize performance and reduce system load.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node batching-logger.test.js",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joon-102/batching-logger.git"
+  },
+  "keywords": [
+    "batching",
+    "logger",
+    "logging",
+    "batch",
+    "performance",
+    "utility"
+  ],
+  "author": "joon-102",
+  "license": "Apache License 2.0",
+  "licenseFile": "LICENSE",
+  "bugs": {
+    "url": "https://github.com/joon-102/batching-logger/issues"
+  },
+  "homepage": "https://github.com/joon-102/batching-logger#readme",
+  "devDependencies": {
+    "@types/node": "^22.8.6"
+  }
+}
