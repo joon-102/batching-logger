@@ -5,7 +5,7 @@
 
 ![Image](https://nodei.co/npm/batching-logger.png?downloads=true&downloadRank=true&stars=true)
 <br>
-성능을 최적화하고 시스템 부하를 줄이기 위해 로그를 일괄적으로 저장합니다.
+성능을 최적화하고 시스템 부하를 줄이기 위해 로그를 일괄적으로 저장합니다. 📜
 
 ## <i class="fa-solid fa-download"></i> **Installation**
 ```bash
